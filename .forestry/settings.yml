@@ -10,6 +10,11 @@ sections:
   read_only: true
 - type: directory
   path: ''
+  label: Codes
+  create: all
+  match: "**/*"
+- type: directory
+  path: ''
   label: Pages
   create: all
   match: "*.md"
